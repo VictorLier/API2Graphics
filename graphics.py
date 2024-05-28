@@ -28,9 +28,9 @@ scoreboard_south = scoreboard_north + scoreboard_height
 
 background = Image.open('boat.jpg')
 
-image = Image.new('RGBA', (image_width, image_height), (0, 0, 0, 0))
+image = Image.new('RGBA', (image_width, image_height), (0, 0, 0, 255))
 
-image.paste(background, (0, 0))
+# image.paste(background, (0, 0))
 
 draw = ImageDraw.Draw(image)
 
